@@ -1,0 +1,19 @@
+body{
+    background:#999;
+}
+
+#holder
+{
+    width:853px;
+    height:510px;
+    position: absolute;
+    left:50%;
+    top:50%;
+    margin-left:-421.5px;
+    margin-top:-255px;
+    background:#111;
+    border:1px solid #555;
+    box-shadow:0px 0px 12px #000;
+    padding:10px;
+    border-radius:5px;
+}

@@ -1,0 +1,105 @@
+#SlideShow {
+  position: relative;
+  background: #222;
+}
+
+#SlideShow .next {
+  width: 42px;
+  height: 42px;
+  background: url(images/next.png) no-repeat;
+  display: none;
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+#SlideShow .previous {
+  width: 42px;
+  height: 42px;
+  background: url(images/previous.png) no-repeat;
+  display: none;
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+#SlideShow .desc {
+  height: 30px;
+  line-height: 30px;
+  font-family: Arial;
+  font-size: 12px;
+  font-weight: bold;
+  text-indent: 8px;
+  background: #000;
+  border-top: 1px solid #888;
+  opacity: 0.8;
+  color: #FFF;
+  display: none;
+}
+
+#SlideShow .desc a {
+  color: #00ccff;
+  font-weight: bold;
+}
+
+#SlideShow .bottom-bar {
+  background: #222;
+  height: 28px;
+}
+
+#SlideShow .box-bar {
+  float: left;
+  margin-left: 2px;
+}
+
+#SlideShow .box {
+  width: 8px;
+  height: 8px;
+  background: #CCC;
+  border: 1px solid #FFF;
+  margin-top: 11px;
+  float: left;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+#SlideShow .boxselected {
+  background: #00ccff;
+  border: 1px solid #999;
+}
+
+#SlideShow .box:hover {
+  background: #AAA;
+  border: 1px solid #DDD;
+}
+
+#SlideShow .button {
+  width: 28px;
+  height: 28px;
+  float: right;
+  cursor: pointer;
+  margin-top: 2px;
+  padding: 2px;
+}
+
+#SlideShow .playButton {
+  opacity: 0.7;
+  background: url(images/play.png) no-repeat;
+  background-position: center center;
+}
+
+#SlideShow .pauseButton {
+  opacity: 0.7;
+  background: url(images/pause.png) no-repeat;
+  background-position: center center;
+}
+
+#SlideShow .slideobject,
+#SlideShow .caption {
+  display: none;
+}
+
+#SlideShow .next:hover,
+#SlideShow .previous:hover,
+#SlideShow .playButton:hover,
+#SlideShow .pauseButton:hover {
+  opacity: 1;
+}
